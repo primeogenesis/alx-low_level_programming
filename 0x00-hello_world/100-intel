@@ -1,2 +1,2 @@
-#!/bim/bash
+#!/bin/bash
 gcc -s -masm=intel $CFILE -o $CFILE.S
