@@ -1,0 +1,2 @@
+#!/bim/bash
+gcc -s -masm=intel $CFILE -o $CFILE.S
