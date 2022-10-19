@@ -3,7 +3,7 @@
 /**
  * main - use peintf to print string
  *
- * Returns : 0 for ok, non-zero for not ok
+ * Return: 0 for ok, non-zero for not ok
  **/
 int main(void)
 {
