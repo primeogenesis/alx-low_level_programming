@@ -15,10 +15,10 @@ int main()
 	{
 		putchar(hexchar);
 		if (hexchar == '9')
-			hexchar = 'A' - 1;
+			hexchar = 'a' - 1;
 		/*
-		*skips to 'A'
-		*'A' - 1 to upset premature incrementation
+		*skips to 'a'
+		*'a' - 1 to upset premature incrementation
 		*/
 		hexchar++;
 		i++;
