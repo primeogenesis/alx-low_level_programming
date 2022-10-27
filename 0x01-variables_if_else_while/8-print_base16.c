@@ -6,7 +6,7 @@
 *Return: 0 (Always)
 */
 
-int main()
+int main(void)
 {
 	int i = 0;
 	int hexchar = '0';
