@@ -23,6 +23,6 @@ int main(void)
 		hexchar++;
 		i++;
 	}
-
+	putchar('\n');
 	return (0);
 }
