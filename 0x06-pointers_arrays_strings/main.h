@@ -2,6 +2,22 @@
 #define MAIN_H_INCLUDED
 
 /**
+*       _strcat - concat two string;
+*       using n as a delimter for string srcs
+*
+*       @dest: the string to be appended to
+*       the string should have sufficent space after it
+*       to add @src
+*
+*       @src: the string appended to @dest
+*
+*       Return: @dest
+*/
+
+char *_strcat(char *dest, char *src);
+
+
+/**
 *	_strncat - concat two string;
 *	using n as a delimter for string srcs
 *	@dest: the string to be appended to
