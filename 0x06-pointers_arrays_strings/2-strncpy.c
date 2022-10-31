@@ -40,6 +40,12 @@ char *_strncpy(char *dest, char *src, int n)
 		i++;
 	}
 
+	while (i <= n + 1)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+
 	dest[end_idx] = '\0'; /* terminates
 *dest with null without this statement.
 * reason unknown
